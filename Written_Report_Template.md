@@ -5,10 +5,10 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 ### Purpose
 To make Louise understand how the major two factors could affact the her potential achievement in the crowdfunding, and give her advise on determaining the optimal launch date and goal levels that would help her succeed in her campaign. 
 ## Analysis and Challenges
-highlights any potential trends that are noticed in the visualization image, and gives f
+A variety of Excel functions (including sorting, filtering, Vlookup, pivoting and etc.) were adopted to perform the analysis. Pivot charts were also utilized as usualizations to help us better understand the relationships between the variables.
 
 ### Analysis of Outcomes Based on Launch Date
-
+In order to find out how the campaign turned out based on the launch date during the year from 2010 to 2017, we would like to combine the outcomes for all years and divide them according to the month of their launch date. Firstly, I added a column on the excel sheet and use `year()`function to exact the year from the "Date Created Conversion" column which was created earlier. Once I get the "years" for all campaigns, I can create a pivot table in a new sheet named "Theater Outcome by Launch Date". When creating the pivot table, I placed the "Date Created Conversion" in the rows, "Outcomes in the rows" in columns, "Count of outcomes" in the value and chose "years" and "Parent Category" as the filters. I filtered the "parent category" to only show the outcomes for Theatre campaigns and filtered "outcomes" to only show the completed campaigns (eliminating "live"). After those steps, I get a pivot table that looks like the following:
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
