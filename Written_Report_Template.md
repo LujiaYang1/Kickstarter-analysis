@@ -8,7 +8,19 @@ To make Louise understand how the major two factors could affact the her potenti
 A variety of Excel functions (including sorting, filtering, Vlookup, pivoting and etc.) were adopted to perform the analysis. Pivot charts were also utilized as usualizations to help us better understand the relationships between the variables.
 
 ### Analysis of Outcomes Based on Launch Date
-In order to find out how the campaign turned out based on the launch date during the year from 2010 to 2017, we would like to combine the outcomes for all years and divide them according to the month of their launch date. Firstly, I added a column on the excel sheet and use `year()`function to exact the year from the "Date Created Conversion" column which was created earlier. Once I get the "years" for all campaigns, I can create a pivot table in a new sheet named "Theater Outcome by Launch Date". When creating the pivot table, I placed the "Date Created Conversion" in the rows, "Outcomes in the rows" in columns, "Count of outcomes" in the value and chose "years" and "Parent Category" as the filters. I filtered the "parent category" to only show the outcomes for Theatre campaigns and filtered "outcomes" to only show the completed campaigns (eliminating "live"). After those steps, I get a pivot table that looks like the following: ![Theater_Outcomes_vs_Launch table.png](Resources/image_Theater_Outcomes_vs_Launch%20table.png)
+In order to find out how the campaign turned out based on the launch date during the year from 2010 to 2017, we would like to combine the outcomes for all years and divide them according to the month of their launch date. Firstly, I added a column on the excel sheet and use `year()`function to exact the year from the "Date Created Conversion" column which was created earlier. Once I get the "years" for all campaigns, I can create a pivot table in a new sheet named "Theater Outcome by Launch Date". When creating the pivot table, I placed the "Date Created Conversion" in the rows, "Outcomes in the rows" in columns, "Count of outcomes" in the value and chose "years" and "Parent Category" as the filters.(shown below)
+
+<img src="Resources/Theater_Outcomes_vs_Launch_Pivot_Capture.png" width= "500">
+
+I filtered the "parent category" to only show the outcomes for Theatre campaigns and filtered "outcomes" to only show the completed campaigns (eliminating "live"). After those steps, I get a pivot table that looks like the following: 
+
+<img src="Resources/Theater_Outcomes_vs_Launch%20table.png" width= "500">
+
+According to the above pivot table, I created a line chart (shown below) using the "pivot chart" function to illustrate the trend of the outcomes in different months of a year.
+
+<img src="Resources/Theater_Outcomes_vs_Launch.png" width= "500">
+
+
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
