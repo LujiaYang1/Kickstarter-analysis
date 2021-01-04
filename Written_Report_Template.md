@@ -39,16 +39,20 @@ One challenge I encountered when working with the data was that sometimes I forg
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 1.May seemed to be the best month for the launch time as it gives the biggest number of successful cases (the peak) which exceeds the number of failed cases by the most(almost twice as failed cases) throughout the year.
 2.December seemed to be the worst month for the launch time as it gives the lowest number of successful cases which became equal to the number of failed cases, meaning that the percentage of being successful is as low as 50%.
 (Both conclusions are made given that the numbers of canceled cases stay relatively minimal and consistant throughout the year, so that we don't take consideration of it when camparing the numbers of successful and failed cases.)
 
 - What can you conclude about the Outcomes based on Goals?
+
 Goals fall in the two ranges seemed to give a higher percentage (greater than 50%) of success: 1) lower than $5000; with 72-75% of being successful. 2)between $35,000 and $45,000; with 67% of being successful. 
 
 - What are some limitations of this dataset?
+
 1) The dataset only contains 9 years of data (from 2009 to 2017). It might not be enough for us to come up with meaningful conclusion.
 2) More explanatory variables should be included for people to better understand how the campaign succeeded. For example 1)who are the initiators of the campaign? Any celebraty or special people envolved? 2) What are the demogaphics of the donors? Different people donate for different purposes? 3) What are the channels for people to donate? Does the use of different on-line platforms affact the result?
 
 - What are some other possible tables and/or graphs that we could create?
+
 We can also create a new variable called "time span", which is a measure of how many months each campaign lasted,and creat a line chart filtered with successful cases in the category of "plays" to show among the successful campaigns, how long did they usually take. This way, we can help Louis to better plan her campaign for the time span.
